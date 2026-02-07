@@ -59,8 +59,50 @@ const schemas = {
             { key: "profession", label: "পেশা", type: "text" },
             { key: "address", label: "ঠিকানা", type: "text" },
             { key: "mobile", label: "মোবাইল নাম্বার", type: "tel" },
-            { key: "email", label: "ইমেইল", type: "email" },
+            { key: "email", label: "ইমেইল (অপশনাল)", type: "email" },
             { key: "dob", label: "জন্ম তারিখ", type: "date" }
+        ]
+    },
+    gorib: {
+        label: "গরীব ও দুস্থ",
+        icon: "fa-hands-helping",
+        fields: [
+            { key: "name", label: "নাম", type: "text" },
+            { key: "guardianName", label: "পিতা/স্বামীর নাম", type: "text" },
+            { key: "address", label: "ঠিকানা", type: "text" },
+            { key: "mobile", label: "মোবাইল নাম্বার", type: "tel" }
+        ]
+    },
+    shikkhok: {
+        label: "শিক্ষক ডাটা",
+        icon: "fa-chalkboard-teacher",
+        fields: [
+            { key: "name", label: "নাম", type: "text" },
+            { key: "fatherName", label: "পিতার নাম", type: "text" },
+            { key: "bloodGroup", label: "রক্তের গ্রুপ", type: "text" },
+            { key: "mobile", label: "মোবাইল নাম্বার", type: "tel" },
+            { key: "email", label: "ইমেইল", type: "email" },
+            { key: "address", label: "ঠিকানা", type: "text" }
+        ]
+    },
+    prosason: {
+        label: "প্রশাসন",
+        icon: "fa-user-shield",
+        fields: [
+            { key: "name", label: "নাম", type: "text" },
+            { key: "rank", label: "পদবী", type: "text" },
+            { key: "mobile", label: "মোবাইল নাম্বার", type: "tel" },
+            { key: "address", label: "ঠিকানা", type: "text" }
+        ]
+    },
+    poribar: {
+        label: "পরিবার ডাটা",
+        icon: "fa-users",
+        fields: [
+            { key: "headName", label: "পরিবার প্রধানের নাম", type: "text" },
+            { key: "memberCount", label: "সদস্য সংখ্যা", type: "number" },
+            { key: "memberNames", label: "সদস্যদের নাম (কমা দিয়ে)", type: "text" },
+            { key: "address", label: "ঠিকানা", type: "text" }
         ]
     }
 };
