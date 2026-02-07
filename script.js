@@ -110,9 +110,7 @@ function selectCategory(key) {
     actions.classList.remove("hidden");
     actions.classList.add("flex");
 
-    if (window.innerWidth < 768) {
-        closeMenu(); // 🔥 mobile auto close
-    }
+    if (window.innerWidth < 768) closeMenu(); // mobile auto close
 
     renderFormInputs();
     showSection("list");
