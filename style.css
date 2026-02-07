@@ -2,17 +2,7 @@
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-/* Mobile responsive fixes */
-@media (max-width: 768px) {
-    #sidebar.active {
-        display: block;
-        position: fixed;
-        top: 60px;
-        left: 0;
-        width: 70%;
-        height: 100%;
-        z-index: 40;
-        background: white;
-        border-right: 1px solid #ddd;
-    }
+/* sidebar open state */
+.sidebar-open {
+    transform: translateX(0) !important;
 }
